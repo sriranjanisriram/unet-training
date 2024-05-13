@@ -2,13 +2,13 @@
 A python implementation to train a U-Net model for MRI phantom segmentation using pytorch
 
 ## Table of Contents
-- [Project Description](#project-description)
+- [Introduction](#introduction)
 - [Repository Structure](#repository-structure)
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Notes](#notes)
 
-## Project Description
+## Introduction
 
 The project focuses on training a UNet model to accurately segment MRI phantoms from noisy images. It utilizes synthetically generated data consisting of DICOM images, corresponding masks, and noise-augmented versions of the original images.
 
