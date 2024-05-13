@@ -12,6 +12,8 @@ A python implementation to train a U-Net model for MRI phantom segmentation usin
 
 The project focuses on training a UNet model to accurately segment MRI phantoms from noisy images. It utilizes synthetically generated data consisting of DICOM images, corresponding masks, and noise-augmented versions of the original images.
 
+![Train and Validation Loss](plots/AI-train_loss.png "Train and Validation loss")
+
 ## Repository Structure
 
 * **`data_generation.py`:** Generates synthetic MRI data, including masks and noise-augmented images. 
